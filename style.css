@@ -1,0 +1,135 @@
+/* * = all (toute la page) */
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+header {
+    height: 100px;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 5px 80px rgba(0, 0, 0, 0.16);
+}
+
+/* TEXTE */
+.titre {
+    display: none;
+}
+
+
+h2{
+    font-family: 'Bebas Neue', cursive;
+}
+
+h3{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+}
+
+span{
+    font-weight: 600;
+}
+
+.textepresentation{
+    text-align: center;
+}
+
+/* Verifier sur Who Can Use : AAA contrast : 7:1 */
+
+.gris{
+    color: #595959;
+    font-weight: 300;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.intitule {
+    font-family: 'Balsamiq Sans', cursive;
+    font-weight: 700;
+}
+
+p{
+    margin: 10px 0px;
+}
+
+/* BLOC DE SECTION */
+
+.box {
+    /* background-color: red; */
+    padding: 20px 40px;
+    margin: 60px auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 80px rgba(128, 128, 128, 0.158);
+    width: 90vw;
+    max-width: 1080px;
+
+}
+
+.iconeheader {
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.apropos {
+    padding-top: 20px;
+}
+
+/* Réglages des icones */
+
+#logo {
+    padding-left: 30px;
+}
+
+.icone {
+    width: 60px;
+    height: 100px;
+    margin: 10px 10px 0 0;
+}
+
+.iconeh {
+    width: 20px;
+    height: 30px;
+    max-height: 30px;
+    margin: 10px 10px 0 0;
+    display: block;
+    padding-right: 5px;
+
+}
+
+.voyage {
+    width: 80px;
+}
+
+.bh {
+    width: 30px;
+}
+
+.photo{
+    height: 300px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 50px rgba(128, 128, 128, 0.158);
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* RESPONSIVE PC*/
+
+@media only screen and (min-width: 1200px){
+    .apropos {
+        display: flex;
+        align-items: center;
+
+    }
+    .textepresentation{
+        padding-left: 50px;
+    }
+    .titre {
+        margin-left: 30px;
+        display: block;
+    }
+}
