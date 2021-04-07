@@ -2,6 +2,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
@@ -66,7 +67,7 @@ p{
     border-radius: 20px;
     box-shadow: 5px 5px 80px rgba(128, 128, 128, 0.158);
     width: 90vw;
-    max-width: 1080px;
+    /* max-width: 1080px; */
 
 }
 
