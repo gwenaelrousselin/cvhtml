@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 /* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap'); */
@@ -153,12 +156,13 @@ p{
     border-radius: 20px;
     box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.158);
     /* taille */
-    width: 150px;
+    width: 120px;
     height: 7vh;
     
 }
 .cta:hover{
-    background-color: #497b9e;
+    background-color: white;
+    color: black;
 }
 
 
