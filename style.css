@@ -4,9 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap'); */
 
 header {
     height: 100px;
@@ -26,6 +26,7 @@ header {
 
 h2{
     font-family: 'Bebas Neue', cursive;
+    font-weight: 600;
 }
 
 h3{
@@ -86,6 +87,7 @@ p{
 
 #logo {
     padding-left: 30px;
+    width: 90px;
 }
 
 .icone {
