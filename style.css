@@ -90,6 +90,10 @@ p{
     width: 90px;
 }
 
+.cls-1{
+    animation: 8s linear 0s infinite couleur;
+}
+
 .icone {
     width: 60px;
     height: 100px;
@@ -145,3 +149,25 @@ p{
         font-family: 'Bebas Neue', cursive;
    }
  }
+
+
+ /* ANIMATION */
+
+
+ @keyframes couleur {
+    0%{
+      fill: #d6bc2e;
+    }
+    25%{
+      fill: #497b9e;
+    }
+    50%{
+      fill: #000;
+    }
+    75%{
+      fill: #497b9e;
+    }
+    100%{
+      fill: #d6bc2e;
+    }
+  }
