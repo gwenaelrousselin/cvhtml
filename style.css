@@ -58,6 +58,10 @@ span{
 p{
     margin: 10px 0px;
 }
+.plus{
+    font-size: 200%;
+    text-align: center;
+}
 
 /* BLOC DE SECTION */
 
@@ -149,9 +153,12 @@ p{
     border-radius: 20px;
     box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.158);
     /* taille */
-    width: 120px;
+    width: 150px;
     height: 7vh;
     
+}
+.cta:hover{
+    background-color: #497b9e;
 }
 
 
