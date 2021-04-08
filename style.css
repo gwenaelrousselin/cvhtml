@@ -141,13 +141,17 @@ p{
 .cta {
     display: block;
     align-items: center;
+    /* couleur */
     background-color: black;
     color: white;
+    /* style */
     border: none;
     border-radius: 20px;
+    box-shadow: 5px 5px 40px rgba(128, 128, 128, 0.158);
+    /* taille */
     width: 120px;
     height: 7vh;
-    box-shadow: 5px 5px 80px rgba(128, 128, 128, 0.158);
+    
 }
 
 
